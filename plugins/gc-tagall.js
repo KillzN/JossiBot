@@ -1,5 +1,5 @@
 const handler = async (m, {isOwner, isAdmin, conn, text, participants, args, command, usedPrefix}) => {
-  const datas = global
+  const datas = globalw
   const idioma = datas.db.data.users[m.sender].language
   const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
   const tradutor = _translate.plugins.gc_tagall
@@ -10,12 +10,12 @@ const handler = async (m, {isOwner, isAdmin, conn, text, participants, args, com
     throw false;
   }
   const pesan = args.join` `;
-  const oi = `*𝙀𝙏𝙄𝙌𝙐𝙀𝙏𝘼𝙎:* ${pesan}`;
-  let teks = `*> Tʜᴇ Sᴜɴ Is Bʀɪɢʜᴛ Bᴜᴛ Nᴏᴛ As Bʀɪɢʜᴛ As Mᴇ ☀️*\n\n ${oi}\n\n➥ _*@ineffable.mvrco:*_\n`;
+  const oi = `* 𝗔𝗖𝗧𝗜𝗩𝗘𝗡𝗦𝗘:* ${pesan}`;
+  let teks = `*> 𝘽𝙚𝙘𝙖𝙪𝙨𝙚 𝙩𝙤𝙢𝙤𝙧𝙧𝙤𝙬 𝙬𝙞𝙡𝙡 𝙗𝙚 𝙣𝙞𝙘𝙚 💗*\n\n ${oi}\n\n➥ _*LISTA DE INTEGRANTES:*_\n`;
   for (const mem of participants) {
-    teks += `🥷🏼 ⇝ @${mem.id.split('@')[0]}\n`;
+    teks += `💸  ⇝ @${mem.id.split('@')[0]}\n`;
   }
-  teks += `└ *KɪʟʟBᴏᴛ ⇝@ineffable.mvrco*`;
+  teks += `└ *JossiBᴏᴛ ⇝ @by.jossi*`;
   conn.sendMessage(m.chat, {text: teks, mentions: participants.map((a) => a.id)} );
 };
 handler.help = ['tagall <mesaje>', 'invocar <mesaje>'];

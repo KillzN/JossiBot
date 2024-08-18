@@ -31,9 +31,9 @@ const handler = async (m, { conn, usedPrefix }) => {
   const wm = 'The Mystic Bot';
   const info = ` ${tradutor.texto1[0]}
 
-  ${tradutor.texto1[1]} KillzN
-  ${tradutor.texto1[2]} +56983073328
-  ${tradutor.texto1[3]} https://chat.whatsapp.com/FFB0fgdK3IP4ZEmZ8jF1CC
+  ${tradutor.texto1[1]} Jossi
+  ${tradutor.texto1[2]} +50764880277
+  ${tradutor.texto1[3]} https://chat.whatsapp.com/KJKQn1fj5h8E7Wn5o02vzu
 
   ${tradutor.texto1[4]} ${rtime}
   ${tradutor.texto1[5]} ${uptime}
@@ -63,7 +63,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   ];
   const document = doc[Math.floor(Math.random() * doc.length)];
   const Message = {
-    document: { url: `https://www.instagram.com/ineffable.mvrco/` },
+    document: { url: `https://www.instagram.com/_ofc.jr26_/` },
     mimetype: `application/${document}`,
     fileName: `Documento`,
     fileLength: 99999999999999,
@@ -72,13 +72,13 @@ const handler = async (m, { conn, usedPrefix }) => {
       forwardingScore: 200,
       isForwarded: true,
       externalAdReply: {
-        mediaUrl: "https://www.instagram.com/ineffable.mvrco/",
+        mediaUrl: "https://www.instagram.com/_ofc.jr26_/",
         mediaType: 2,
         previewType: "pdf",
-        title: "KillzN",
+        title: "Jossi",
         body: tradutor.texto2,
         thumbnail: imagen1,
-        sourceUrl: "https://www.instagram.com/ineffable.mvrco/",
+        sourceUrl: "https://www.instagram.com/_ofc.jr26_/",
       },
     },
     caption: info,
