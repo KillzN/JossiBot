@@ -513,7 +513,7 @@
             "texto2": "_*< DESCARGAS - GDRIVE />*_\n\n*[ ℹ️ ] Se está enviando el archivo. espere...*\n\n*[ ℹ️ ] Si no se envía, podría ser porque supera el límite de tamaño.*",
             "texto3": "_*< DESCARGAS - GDRIVE />*_\n\n*[ ℹ️ ] Ocurrió un error. Por favor, inténtalo de nuevo más tarde.*"
         },
-        "descargas_gitclone": {
+        "descargas_": {
             "texto1": "_*< DESCARGAS - GITCLONE />*_\n\n*[ ℹ️ ] Ingrese un enlace de GitHub.*\n\n*[ 💡 ] Ejemplo:*",
             "texto2": "_*< DESCARGAS - GITCLONE />*_\n\n*[ ℹ️ ] El enlace que proporcionó es incorrecto.*",
             "texto3": "_*< DESCARGAS - GITCLONE />*_\n\n*[ ℹ️ ] Se está enviando el archivo. espere...*\n\n*[ ℹ️ ] Si no se envía, podría ser porque supera el límite de tamaño.*"
