@@ -59,6 +59,14 @@ const handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, i
  *┃➤  ${usedPrefix}fantasmas*
  *┃➤  ${usedPrefix}kickfantasmas*
   ╰━━━━━━━━━━━━
+  
+╭━〔 ⚔️ 𝗙𝗥𝗘𝗘 𝗙𝗜𝗥𝗘 ⚔️ 〕
+*║➤ ⚔️${usedPrefix}4vs4infi*
+*║➤ ⚔️${usedPrefix}6vs6infi*
+*║➤ ⚔️${usedPrefix}4vs4clk*
+*║➤ ⚔️${usedPrefix}6vs6clk*
+*║➤ ⚔️${usedPrefix}6vs6vv2*
+ ╰━━━━━━━━━━━━
 
  *╔══ ≪ STICKERS X FILTROS ≫ ══╗*
  *║* 🎐 _${usedPrefix}sticker | s *imagen o video*_
